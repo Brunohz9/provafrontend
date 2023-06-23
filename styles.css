@@ -1,0 +1,57 @@
+body{
+    margin:0;
+}
+
+header,nav,main,footer{
+    margin: 20px;
+}
+
+header{
+    background:rgb(61, 61, 61);
+    height:140px;
+    color:white;
+    padding:15px;
+}
+
+header h1{
+    padding-top:24px;
+    text-align:center;
+}
+
+nav {
+    float:right;
+    background:gray;
+    height: 1000px;
+    padding:10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(56, 56, 56);
+}
+
+main {
+    float:left;
+    width:70%;
+}
+
+article h2{
+    background:black;
+    color:white;
+    padding:5px;
+    margin:10px;
+}
+article {
+    margin:20px;
+}
+
+main p{
+    margin-left:10px;
+}
+
+main .autor,main .data{
+    text-align: right;
+}
+
+footer {
+}
